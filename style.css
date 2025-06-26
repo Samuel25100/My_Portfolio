@@ -50,7 +50,7 @@ nav {
 
 /* _____________Main Content_____________ */
 
-/* ______Profile______ */
+            /* ______Profile______ */
 /* Profile pic*/
 #profile {
     display: flex;
@@ -113,7 +113,7 @@ nav {
     height: 2.5rem;
 }
 
-/* ______About______ */
+            /* ______About______ */
 #about {
     text-align: center;
     padding-top: 4vh;
@@ -154,7 +154,7 @@ nav {
     text-align: start;
 }
 
-/* ______Experience______ */
+            /* ______Experience______ */
 #experience {
     text-align: center;
 }
@@ -175,4 +175,32 @@ nav {
     border: rgb(53, 53, 53) 0.1rem solid;
     border-color: rgb(163, 163, 163);
     text-align: center;
+}
+
+/* each skill list*/
+.list_skill {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+}
+.part{
+    display: flex;
+    width: 3rem;
+}
+.part img {
+    margin-right: 5px;
+}
+
+                /*______Project______*/
+#projects {
+    text-align: center;
+}
+#projects h1{
+    font-size: 3rem;
+}
+
+.projects_con {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
